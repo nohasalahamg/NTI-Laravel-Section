@@ -33,6 +33,7 @@
 
 <div class="container">
     <div class="row">
+        <P> Create</P>
     <form action="<?php echo url('/student/store'); ?>" method="post" enctype="multipart/form-data">
     <input type="hidden" name="_token" class="form-control" value="{{ csrf_token() }}" />
 <div class="form-group">

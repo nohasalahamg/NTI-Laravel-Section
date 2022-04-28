@@ -25,10 +25,10 @@ Route::get('/student/create', [StudentController:: Class ,'create']);
 Route::post('/student/store', [StudentController:: Class ,'store']);
 
 
-Route::get('/blog/create', [BlogController:: Class ,'create']);
+Route::get('/create', [BlogController:: Class ,'create']);
 Route::post('/blog/store', [BlogController:: Class ,'store']);
 
-
+//resource controller
 Route::Resource('Post',PostController:: Class);
 
 //
